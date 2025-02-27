@@ -54,7 +54,12 @@
 }
 
 .banner {
-  background-color: rgb(96, 91, 211);
+  background: url('img/captiol_theme.png') no-repeat center;
+  background-size: 50% auto; /* or use specific dimensions */
+  width: 100%; /* or another responsive width */
+  aspect-ratio: 16 / 9;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 h2,
